@@ -1,0 +1,18 @@
+.navbar{
+    background-color: bisque;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .navbar-link {
+    color: white;
+}
+
+.navbar-nav .navbar-link:hover{
+    color: antiquewhite;
+}
