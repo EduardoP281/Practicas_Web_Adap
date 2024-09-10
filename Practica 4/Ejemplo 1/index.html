@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Paciente</title>
+</head>
+<body>
+    <!--Formulario paciente-->
+    <div class="container mt-5">
+        <form class="form-paciente">
+            <h2 class="text-center text-primary mb-4">Registro paciente</h2>
+            <p class="text-center text-muted">Complete los siguientes casos</p>
+            
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" id="nombre" placeholder="nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id="apellido" placeholder="apellido">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="fehca-nacimiento">Fecha Nacimiento</label>
+                <input type="date" class="form-control" id="fehca-nacimiento">
+            </div>
+            <div class="form-group">
+                <label for="genero">Genero</label>
+                <select name="form-control" id="genero">
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Otro tipo de gei</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="telefono">telefono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Numero de Telefono">
+            </div>
+            <!--Boton de Enviar-->
+            <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
